@@ -12,7 +12,8 @@ setup(
     install_requires=[
         'mediapipe',
         'numpy',
-        'opencv-python'
+        'opencv-python',
+        'wget'
     ],
     python_requires='>=3.11',
 )
