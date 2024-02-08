@@ -8,9 +8,9 @@ To install EasyMedipe, you need to have Python 3.11 or higher installed on your 
 
 <hr>
 
-## Examples
+# Examples
 
-# Pose
+## Pose
 
 ```python
 
@@ -21,7 +21,8 @@ print(pose.detect_pose(pose.read_image("IMAGE_PATH")))
 
 ```
 
-# Hand
+## Hand
+
 ```python
 
 from EasyMediapipe.Hand import Hand
@@ -31,8 +32,7 @@ print(hand.detect_hand(hand.read_image("IMAGE_PATH")))
 
 ```
 
-
-# Face Detection 
+## Face Detection 
 
 ```python
 
