@@ -15,5 +15,5 @@ setup(
         'opencv-python',
         'wget'
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.10',
 )
